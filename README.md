@@ -1,6 +1,6 @@
 # Ejercicio-Packet-Tracer
 
-##**----EJERCICIO A REALIZAR----**
+## **----EJERCICIO A REALIZAR----**
 
 Realizar utilizando Cisco Packet Tracer el siguiente ejercicio:
 
