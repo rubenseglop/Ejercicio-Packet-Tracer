@@ -34,6 +34,11 @@ Realizar utilizando Cisco Packet Tracer el siguiente ejercicio:
 
 -   Subir el fichero a github.com. En github debemos crear un fichero readme.md
     (en formato mark down) donde se explicará todo el ejercicio.
+    
+    
+    
+    
+    
 
 ## **----EXPLICACIÓN DEL EJERCICIO----**
 
