@@ -1,6 +1,6 @@
 # Ejercicio-Packet-Tracer
 
-**----EJERCICIO A REALIZAR----**
+##**----EJERCICIO A REALIZAR----**
 
 Realizar utilizando Cisco Packet Tracer el siguiente ejercicio:
 
@@ -35,9 +35,9 @@ Realizar utilizando Cisco Packet Tracer el siguiente ejercicio:
 -   Subir el fichero a github.com. En github debemos crear un fichero readme.md
     (en formato mark down) donde se explicará todo el ejercicio.
 
-**----EXPLICACIÓN DEL EJERCICIO----**
+##**----EXPLICACIÓN DEL EJERCICIO----**
 
-**PRIMERA RED (COLOR MORADO DE PACKET-TRACER)**
+###**PRIMERA RED (COLOR MORADO DE PACKET-TRACER)**
 
 **Crear tres subredes (VLSM), una que soporte 100 host, otra que soporte 30 y
 por último una para 6 host. Sólo esta última podrá salir fuera. Cada una tendrá
@@ -74,7 +74,7 @@ ordenadores que deben estar en la misma subred que el router y que tendrán más
 adelante salida al exterior añadiendo la ip del router 192.168.0.166 en la
 configuración Gateway.
 
-**SEGUNDA RED (COLOR AZUL DE PACKET-TRACER)**
+###**SEGUNDA RED (COLOR AZUL DE PACKET-TRACER)**
 
 **8 ordenadores con DHCP.**
 
@@ -95,7 +95,7 @@ De esta manera ya puedo añadir los 8 ordenadores conectándolos al mismo
 **SWITCH** que el servidor de DHCP y activando el servicio **DHCP** automático
 en cada uno de ellos.
 
-**TERCERA RED (COLOR VERDE DE PACKET-TRACER)**
+###**TERCERA RED (COLOR VERDE DE PACKET-TRACER)**
 
 **4 ordenadores con DHCP.**
 
@@ -115,7 +115,7 @@ Conecto los 4 ordenadores restantes conectándolos al mismo **SWITCH** que el
 servidor y activando el servicio **DHCP** automático en cada uno de los
 ordenadores.
 
-CUARTA RED (COLOR AMARILLO DE PACKET-TRACER)
+###**CUARTA RED (COLOR AMARILLO DE PACKET-TRACER)**
 
 **4 ordenadores con IP fija, un punto de acceso con 5 ordenadores con DHCP.**
 
@@ -146,7 +146,7 @@ siguiendo el siguiente esquema:
 *El servidor DNS igualmente lo dejo en blanco* para más adelante en el futuro
 añadirla.
 
-**QUINTA RED (COLOR ROJO DE PACKET-TRACER)**
+###**QUINTA RED (COLOR ROJO DE PACKET-TRACER)**
 
 **5 ordenadores con IP fija.**
 
@@ -164,7 +164,7 @@ manualmente configuramos los 5 ordenadores conectados a su correspondiente
 La ip de **Gateway** la reservo como siempre para un futuro router que iría en
 la **10.0.0.1/8**
 
-TODAS LAS REDES ESTARÁN CONECTADAS MEDIANTE ROUTERS
+###**TODAS LAS REDES ESTARÁN CONECTADAS MEDIANTE ROUTERS**
 
 Para realizar este cometido, vamos a añadir nuestros enrutadores que faltan. En
 la red número 1 (el de las 3 subredes) ya añadimos un Router llamado Router1, y
@@ -211,7 +211,7 @@ el enrutamiento siguiente:
 | **Red** |             | 10.0.0.0    |             |
 | **Red** |             | 172.16.0.0  |             |
 
-TENDREMOS TRES SERVIDORES WEB:
+###**TENDREMOS TRES SERVIDORES WEB:**
 
 -   [www.albacete.es](http://www.albacete.es/) : muestra una foto de Albacete.
 
@@ -235,7 +235,7 @@ Todos los ordenadores de la misma red leerán el contenido inmediatamente,
 mientras que el resto de redes tardaran un poco en localizar los servicios si
 usamos el navegador web.
 
-EXISTIRÁ UN SERVIDOR DNS PARA RESOLVER LOS NOMBRES ANTERIORES.
+###**EXISTIRÁ UN SERVIDOR DNS PARA RESOLVER LOS NOMBRES ANTERIORES.**
 
 Por último nos queda resolver las **DNS** con un nuevo servidor que también lo
 conectaré al último **SWITCH** de los servidores web **HTTP**. Instalamos dicho
@@ -256,7 +256,7 @@ hosts resolviendo su nombre **DNS**, debemos indicarles la IP del servidor de
 **DNS** a los ordenadores con IP fija y a los servidores **DHCP** de cada uno de
 ellos para que se las asigne a sus respectivos clientes.
 
-TESTEAR TODA LA RED
+###**TESTEAR TODA LA RED**
 
 Por último ya solo toca enviar **PING’s ó PAQUETES** de una red a otra,
 comprobar que de la Subredes sólo puedan tener acceso de salida una de ellas y
