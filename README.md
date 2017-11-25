@@ -250,6 +250,9 @@ Todos los ordenadores de la misma red leerán el contenido inmediatamente,
 mientras que el resto de redes tardaran un poco en localizar los servicios si
 usamos el navegador web.
 
+**PD: En Packet Tracer 6.0.1.xx.xx no tiene opción de alojar fotos en el servidor 
+de HTTP, por lo que lo sustituyo por texto alternativo**
+
 ### **EXISTIRÁ UN SERVIDOR DNS PARA RESOLVER LOS NOMBRES ANTERIORES.**
 
 Por último nos queda resolver las **DNS** con un nuevo servidor que también lo
