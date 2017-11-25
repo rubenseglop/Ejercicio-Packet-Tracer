@@ -78,6 +78,7 @@ Al tener conexión con un router, les configuro la puerta de enlace a esos 4
 ordenadores que deben estar en la misma subred que el router y que tendrán más
 adelante salida al exterior añadiendo la ip del router 192.168.0.166 en la
 configuración Gateway.
+
 ![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/red1.jpg)
 
 ### **SEGUNDA RED (COLOR AZUL DE PACKET-TRACER)**
@@ -101,6 +102,8 @@ De esta manera ya puedo añadir los 8 ordenadores conectándolos al mismo
 **SWITCH** que el servidor de DHCP y activando el servicio **DHCP** automático
 en cada uno de ellos.
 
+![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/red2.jpg)
+
 ### **TERCERA RED (COLOR VERDE DE PACKET-TRACER)**
 
 **4 ordenadores con DHCP.**
@@ -120,6 +123,8 @@ añadido.
 Conecto los 4 ordenadores restantes conectándolos al mismo **SWITCH** que el
 servidor y activando el servicio **DHCP** automático en cada uno de los
 ordenadores.
+
+![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/red3.jpg)
 
 ### **CUARTA RED (COLOR AMARILLO DE PACKET-TRACER)**
 
@@ -152,6 +157,8 @@ siguiendo el siguiente esquema:
 *El servidor DNS igualmente lo dejo en blanco* para más adelante en el futuro
 añadirla.
 
+![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/red4.jpg)
+
 ### **QUINTA RED (COLOR ROJO DE PACKET-TRACER)**
 
 **5 ordenadores con IP fija.**
@@ -169,6 +176,8 @@ manualmente configuramos los 5 ordenadores conectados a su correspondiente
 
 La ip de **Gateway** la reservo como siempre para un futuro router que iría en
 la **10.0.0.1/8**
+
+![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/red5.jpg)
 
 ### **TODAS LAS REDES ESTARÁN CONECTADAS MEDIANTE ROUTERS**
 
