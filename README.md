@@ -78,6 +78,7 @@ Al tener conexión con un router, les configuro la puerta de enlace a esos 4
 ordenadores que deben estar en la misma subred que el router y que tendrán más
 adelante salida al exterior añadiendo la ip del router 192.168.0.166 en la
 configuración Gateway.
+![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/red1.jpg)
 
 ### **SEGUNDA RED (COLOR AZUL DE PACKET-TRACER)**
 
