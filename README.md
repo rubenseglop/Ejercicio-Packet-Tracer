@@ -213,6 +213,7 @@ por tanto quedaría asi:
 | **IP:**           | 192.168.0.166/28 192.168.1.1/24 | 10.0.0.1/8 172.16.0.1/16 | 192.168.2.1/24                |
 | **Cable Serial:** | 192.168.5.1/24                  | 192.168.6.1/24           | 192.168.5.2/24 192.168.6.1/24 |
 
+![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/routers.jpg)
 Por tanto ahora elegimos el método de enrutamiento (versión RIP 2) y realizamos
 el enrutamiento siguiente:
 
