@@ -215,8 +215,12 @@ por tanto quedaría asi:
 
 ![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/routers.jpg)
 
-Por tanto ahora elegimos el método de enrutamiento (versión RIP 2) y realizamos
-el enrutamiento siguiente:
+Por tanto ahora elegimos el método de enrutamiento (versión RIP 2)...
+
+![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/rip2.jpg)
+
+
+...y realizamos el enrutamiento siguiente:
 
 |         | **Router1** | **Router2** | **Router3** |
 |---------|-------------|-------------|-------------|
