@@ -144,7 +144,7 @@ El servicio **DHCP** tiene la siguiente configuración:
 De esta manera ya podemos añadir todos los ordenadores, en total 9, activando en
 sólo 5 de ellos el servicio DHCP automático.
 
-Al resto de ordenadores le asignaré la ip manualmente su configuración TCP/IP
+Al resto de los 4 ordenadores, le asignaré la ip manualmente su configuración TCP/IP
 siguiendo el siguiente esquema:
 
 |                  | **Ordenador 1** | **Ordenador 2** | **Ordenador 3** | **Ordenador 4** |
@@ -167,12 +167,12 @@ Para esta red he querido seleccionar una de *clase B 172.16.0.0/16* y
 manualmente configuramos los 5 ordenadores conectados a su correspondiente
 **SWITCH** de la siguiente manera:
 
-|                  | **Ordenador 1**        | **Ordenador 2**        | **Ordenador 3**        | **Ordenador 4**        |
-|------------------|------------------------|------------------------|------------------------|------------------------|
-| **IP**           | 172.16.0.10            | 172.16.0.11            | 172.16.0.12            | 172.16.0.13            |
-| **Máscara**      | 255.255.0.0            | 255.255.0.0            | 255.255.0.0            | 255.255.0.0            |
-| **Servidor DNS** | \-                     | \-                     | \-                     | \-                     |
-| **Gateway**      | 172.16.0.1 (reservada) | 172.16.0.1 (reservada) | 172.16.0.1 (reservada) | 172.16.0.1 (reservada) |
+|                  | **Ordenador 1**    | **Ordenador 2**    | **Ordenador 3**    | **Ordenador 4**    | **Ordenador 5**    |
+|------------------|--------------------|--------------------|--------------------|--------------------|--------------------|
+| **IP**           | 172.16.0.10        | 172.16.0.11        | 172.16.0.12        | 172.16.0.13        | 172.16.0.13        |
+| **Máscara**      | 255.255.0.0        | 255.255.0.0        | 255.255.0.0        | 255.255.0.0        | 255.255.0.0        |
+| **Servidor DNS** | \-                 | \-                 | \-                 | \-                 |\-                 |
+| **Gateway**      | 172.16.0.1 (reservada) | 172.16.0.1 (reservada) | 172.16.0.1 (reservada) | 172.16.0.1 (reservada) | 172.16.0.1 (reservada) |
 
 La ip de **Gateway** la reservo como siempre para un futuro router que iría en
 la **10.0.0.1/8**
