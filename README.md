@@ -240,9 +240,13 @@ La inclusión de tres servidores requieren la utilización de una IP’s que est
 el rango de IP’s de cualquiera de las redes (a excepción de las subredes de
 nuestra **RED 1** al cual no facilitamos acceso al Router1)
 
+![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/servidoresdhcp.jpg)
+
 Por tanto los uniré mediante un nuevo **SWITCH** (también podrían ir
 directamente al **SWITCH** ya instalado) a la red diseñada en el ejercicio de la
 QUINTA RED.
+
+![image](https://raw.githubusercontent.com/rubenseglop/Ejercicio-Packet-Tracer/master/github/red5yservidores.jpg)
 
 Ponemos a cada servidor una Ip’s manualmente dentro de esa red 5
 (**172.16.0.2/16, 172.16.0.3/16 y 172.16.0.4/16**) y activamos en cada uno de
